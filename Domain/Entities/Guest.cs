@@ -13,8 +13,6 @@ namespace Domain.Entities
         public string Name { get; set; }
         public int PassportSeries { get; set; }
         public int PassportNumber { get; set; }
-
-        [Required]
         public HotelRoom HotelRoom { get; set; }
     }
 }
